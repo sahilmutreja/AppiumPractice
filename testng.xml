@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tap on Multiple Devices">
+    <test verbose="2" preserve-order="true" name="Test on Pixel">
+        <parameter name="deviceName" value="Pixel"/>
+        <classes>
+            <class name="TestTapFunction"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test on Nexus">
+        <parameter name="deviceName" value="Nexus"/>
+        <classes>
+            <class name="TestTapFunction"/>
+        </classes>
+    </test>
+</suite>
